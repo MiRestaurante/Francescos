@@ -1,0 +1,313 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+body
+{
+	background-color: white  ;
+}
+.Barra
+{
+	width: 100%;
+	margin: auto;
+	display: block;
+	border: 5px solid #E5E7E9;
+	background-color: white;
+	position: fixed;
+}
+.Barra ul
+{
+	list-style: none;
+	overflow: hidden;
+	padding-right: 360px;
+}
+.Barra ul li
+{
+	float: right;
+}
+.Barra ul li a
+{
+	text-decoration: underline #5F1313 ;
+	display: inline-block;
+	font-family:  'Lobster', cursive;
+	font-size: 25px;
+	padding: 20px 40px;
+	font-weight: bold;
+	color: #2980B9 ;
+}
+.Barra ul li a:hover
+{
+	background-color:#7F8C8D  ;
+	color: white;
+	font-size: 35px;
+	text-decoration: underline #5D6D7E;
+	border-radius: 20px;
+}
+.big
+{
+	width: 90%;
+	margin: auto;
+	background-color: white;
+	border-right: 8px solid #E5E7E9  ;
+	border-left: 8px solid #E5E7E9 ;
+}
+.big img
+{
+	width: 19%;
+	display:block;
+	margin: auto;
+	padding-top: 50px;
+}
+.big .articulos tr td h1
+{
+	text-align: center;
+	font-size: 27px;
+	font-family:'Titillium Web', sans-serif;
+	color: #401F1F ;
+	font-weight: bold;
+}
+.big .articulos tr td p
+{
+	text-align: center;
+	font-size: 14px;
+	font-family: 'Titillium Web', sans-serif;
+	color: #707B7C ;
+	padding: 20px;
+}
+/* estilos para el div del nombre del desarrollador  */
+.big .footer
+{
+	width: 100%;
+	margin: 40px auto;
+	/*background-color: #1F618D ;*/
+	border-top: 4px solid #2980B9;
+}
+.big .footer h3
+{
+	font-size: 17px;
+	font-family: 'Titillium Web', sans-serif;
+	color: #340F0B ;
+	text-align: center;
+
+}
+.big .footer .red
+{
+	width: 3%;
+	display: block;
+	margin: auto;
+	padding: 10px;
+}
+
+
+/* estilos para los enlaces para describir mas los articulos */
+.big .ecoFoto
+{
+	width: 30%;
+	margin: auto;
+	display: block;
+	padding: 20px;
+	padding-top: 95px;
+}
+.big .ecologia
+{
+	text-align: center;
+	font-size: 27px;
+	font-family:'Yellowtail', cursive;
+	color: #1E8449 ;
+	font-weight: bold;
+	padding: 30px;
+}
+.big .texto1
+{
+	text-align: justify;
+	font-size: 14px;
+	font-family: 'Titillium Web', sans-serif;
+	color:#401F1F ;
+	padding: 20px;
+	margin: 5px auto 50px auto;
+}
+
+.big .sosFoto
+{
+	width: 20%;
+	margin: auto;
+	display: block;
+	padding: 20px;
+	padding-top: 95px;
+}
+.big .sostenible
+{
+	text-align: center;
+	font-size: 27px;
+	font-family:'Yellowtail', cursive;
+	color: #1E8449 ;
+	font-weight: bold;
+	padding: 30px;
+}
+.big .texto2
+{
+	text-align: justify;
+	font-size: 14px;
+	font-family: 'Titillium Web', sans-serif;
+	color: #401F1F ;
+	padding: 20px;
+	margin: 5px auto 50px auto;
+}
+.big .huellaFoto
+{
+	width: 30%;
+	margin: auto;
+	display: block;
+	padding: 20px;
+	padding-top: 95px;
+}
+.big .huella
+{
+	text-align: center;
+	font-size: 27px;
+	font-family:'Yellowtail', cursive;
+	color: #1E8449;
+	font-weight: bold;
+	padding: 10px;
+}
+.big .texto3
+{
+	text-align: justify;
+	font-size: 14px;
+	font-family: 'Titillium Web', sans-serif;
+	color: #401F1F ;
+	padding: 10px;
+	margin: 5px auto 5px auto;
+}
+.big .proFoto
+{
+	width: 15%;
+	margin: auto;
+	display: block;
+	padding: 5px;
+	padding-top: 95px;
+
+}
+.big .problemas
+{
+	text-align: center;
+	font-size: 27px;
+	font-family:'Yellowtail', cursive;
+	color:#1E8449 ;
+	font-weight: bold;
+	padding: 10px;
+}
+.big .texto4
+{
+	text-align: justify;
+	font-size: 14px;
+	font-family: 'Titillium Web', sans-serif;
+	color: #401F1F ;
+	padding: 10px;
+	margin: 5px auto 5px auto;
+}
+
+/* ESTILOS PARA LOS EVENTOS DE LA EMPRESA */
+
+.big .tituloGaleria
+{
+	font-family:'Kalam', cursive;
+	font-size: 40px;
+	text-decoration: underline #999999;
+	color: #401F1F;
+	padding: 15px;
+	padding-top: 93px;
+}
+.big .mensaje
+{
+	text-align: justify;
+	font-size: 17px;
+	padding: 15px;
+	font-family:'Montserrat Alternates', sans-serif;
+}
+.big .galeria
+{
+	width: 90%;
+	margin: 30px auto;
+}
+.big .galeria tr td img
+{
+	width: 40%;
+	padding: 20px 20px 20px 60px;
+	display: inline-block;
+	border-bottom: 2px solid #BFC9CA ;
+}
+/* ESTILOS PARA LA PAGINA DE REGISTROS  */
+.Titulo
+{
+	padding-top: 90px;
+	font-size: 27px;
+	font-family:'Kalam', cursive;
+	text-decoration: underline #999999;
+	color: #401F1F;
+	padding-left: 15px;
+}
+.recomendacion
+{
+	font-size: 15px;
+	margin: 15px auto;
+	font-family:'Montserrat Alternates', sans-serif;
+	padding: 20px;
+}
+/* ESTILOS PARA EL FORMULARIO DE REGISTRO A LAS CONFERENCIAS */
+.big .registro
+{
+	width: 40%;
+	display: block;
+	margin: 20px auto;
+	border: 2px solid #8CBDEB;
+}
+.registro .cajas
+{
+	width: 70%;
+	display: block;
+	margin: 10px auto;
+	padding: 15px;
+}
+.registro .cajas input[type="text"], input[type="email"]
+{
+	width: 89%;
+	display: block;
+	margin: 20px auto;
+	padding: 8px;
+	text-align: justify;
+	font-size: 15px;
+	border: none;
+	border-bottom: 2px solid #545C64 ;
+}
+.registro .boton
+{
+	width: 50%;
+	display: block;
+	margin:0 auto 30px auto;
+	font-size: 25px;
+	background-color: #703434;
+	border: none;
+	padding: 10px;
+	font-weight: bold;
+	font-family:  'Cormorant', serif;
+	border-radius: 15px;
+	cursor: pointer;
+}
+.registro .boton:hover
+{
+	width: 70%;
+	font-size: 28px;
+}
+.registro .error1, .error2, .error3, .error4
+{
+	width: 70%;
+	margin: 10px auto;
+	font-size: 12px;
+	font-family: verdana;
+	color:#FF0202 ;
+	padding: 5px;
+	padding-left: 70px;
+	display: none;
+}
