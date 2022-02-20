@@ -1,15 +1,3 @@
-/*---------------------------------------------------------------------------------
-
-Master Stylesheet
-
-	Template:	 Unika - Responsive One Page HTML5 Template
-	Author:		 imransdesign.com
-	URL:		 http://imransdesign.com/
-    Designed By: https://www.behance.net/poljakova
-	Version:	1.0	
-
----------------------------------------------------------------------------------*/
-
 html {
 	height: 100% !important;
 }
@@ -94,7 +82,7 @@ section {
 .devider {
 	width: 100%;
 	height: 23px;
-	background: url('../img/devider.png') no-repeat center center;
+	background: url('../img/deviderFra.png') no-repeat center center;
 	margin: 5px 0 10px;
 }
 .thumbnail {
